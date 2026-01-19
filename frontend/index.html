@@ -13,11 +13,12 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
   </head>
   <body>
     <!-- navbar -->
     <header class="navbar">
-      <div class="container">
+      <div class="container navbar-content">
         <div class="logo">CampusConnect</div>
         <nav class="nav-links">
           <a href="#">Explore</a>
@@ -29,7 +30,204 @@
     </header>
     <main>
       <!-- hero section -->
+      <section class="section hero">
+        <div class="container hero-content">
+          <h1>The Students Platform.</h1>
+          <h2>From shared interests to real ones.</h2>
+          <p>
+            Whatever you’re into, from late-night study sessions & hackathons to
+            sports, music, or just good conversations, CampusConnect helps you
+            find people on your campus who share your vibe.
+          </p>
+          <button class="btn btn-primary hero-btn">Join CampusConnect</button>
+        </div>
+      </section>
+      <!-- popular upcoming events -->
+      <section class="section events">
+        <div class="container">
+          <div class="section-header">
+            <h2>Popular Upcoming Events</h2>
+            <a href="#" class="see-all">See all events</a>
+          </div>
+          <div class="events-grid">
+            <div class="card event-card">
+              <div class="event-tags">
+                <span class="tag">Free</span>
+                <span class="tag">Online</span>
+              </div>
+              <h3 class="event-title">Business 4.0 Meetup</h3>
+              <p class="event-date">Wed, Jan 7, 2026 @ 12:30 PM IST</p>
+              <p class="event-organizer">by Investors Network</p>
+            </div>
+            <div class="card event-card">
+              <div class="event-tags">
+                <span class="tag">Free</span>
+                <span class="tag">Offline</span>
+              </div>
+
+              <h3 class="event-title">Startup Networking Night</h3>
+
+              <p class="event-date">Fri, Jan 9, 2026 @ 5:00 PM IST</p>
+
+              <p class="event-organizer">by Campus Founders</p>
+            </div>
+            <div class="card event-card">
+              <div class="event-tags">
+                <span class="tag">Free</span>
+                <span class="tag">Offline</span>
+              </div>
+
+              <h3 class="event-title">Design Thinking Workshop</h3>
+
+              <p class="event-date">Sun, Jan 11, 2026 @ 10:00 AM IST</p>
+
+              <p class="event-organizer">by Design Club</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- sub-hero -->
+      <section class="section sub-hero">
+        <div class="container sub-hero-content">
+          <h2>Join CampusConnect</h2>
+          <p>
+            Students use CampusConnect to meet new people, discover interests,
+            build skills & find their community on campus.
+          </p>
+          <button class="btn btn-primary sub-hero-btn">SignUp for Free</button>
+        </div>
+      </section>
+      <!-- explore campus interests -->
+      <section class="section interests">
+        <div class="container">
+          <h2>Explore Campus Interests</h2>
+          <div class="interests-grid">
+            <div class="card interest-card">
+              <h3>Tech & Innovation</h3>
+              <p>Hackathons, coding clubs, AI, startups & tech talks.</p>
+            </div>
+            <div class="card interest-card">
+              <h3>Career & Professional Growth</h3>
+              <p>Workshops, networking, placements & resume building.</p>
+            </div>
+            <div class="card interest-card">
+              <h3>Clubs & Communities</h3>
+              <p>Music, dance, art, drama, literature & hobby groups.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- popular on campus -->
+      <section class="section popular">
+        <div class="container">
+          <h2>Popular On Campus</h2>
+          <p class="popular-subtext">
+            See what students are planning & attending right now
+          </p>
+          <div class="popular-grid">
+            <div class="card popular-card">
+              <h3>Hackathons & Tech Events</h3>
+              <p>Codeathons, AI meets, startup weekends & tech talks.</p>
+            </div>
+
+            <div class="card popular-card">
+              <h3>Workshops & Seminars</h3>
+              <p>Skill-building sessions, expert talks & certifications.</p>
+            </div>
+
+            <div class="card popular-card">
+              <h3>Cultural Fests & Shows</h3>
+              <p>Dance, music, drama, open mics & cultural nights.</p>
+            </div>
+            <div class="card popular-card">
+              <h3>Sports & Fitness Meets</h3>
+              <p>Football matches, yoga sessions, marathons & gym buddies.</p>
+            </div>
+
+            <div class="card popular-card">
+              <h3>Career & Placement Events</h3>
+              <p>Mock interviews, resume reviews & placement prep.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- how it works -->
+      <section class="section how-it-works">
+        <div class="container">
+          <h2>How CampusConnect Works?</h2>
+          <div class="steps">
+            <div class="card step-card">
+              <div class="step-number">1</div>
+              <h3>Discover Events & Communities</h3>
+              <p>Explore what’s happening on and around your campus.</p>
+              <a href="#" class="step-link">Explore Events</a>
+            </div>
+            <div class="card step-card">
+              <div class="step-number">2</div>
+              <h3>Find Your People</h3>
+              <p>Connect with students who share your interests & goals.</p>
+            </div>
+
+            <div class="card step-card">
+              <div class="step-number">3</div>
+              <h3>Create or Host Events</h3>
+              <p>Start a group, host events, or build campus communities.</p>
+              <a href="#" class="step-link">Host an Event</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container footer-content">
+        <!-- brand column -->
+        <div class="footer-brand">
+          <h3>CampusConnect</h3>
+          <p>
+            Built by students, for students. Discover events, meet people &
+            build campus communities.
+          </p>
+          <div class="footer-socials">
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+          </div>
+        </div>
+        <!-- column 1 -->
+        <div class="footer-column">
+          <h4>Discover</h4>
+          <a href="#">Events</a>
+          <a href="#">Communities</a>
+          <a href="#">Categories</a>
+        </div>
+        <!-- column 2 -->
+        <div class="footer-column">
+          <h4>For Students</h4>
+          <a href="#">First-year students</a>
+          <a href="#">Skill building</a>
+          <a href="#">Career prep</a>
+        </div>
+        <!-- column 3 -->
+        <div class="footer-column">
+          <h4>For Organizers</h4>
+          <a href="#">Host an event</a>
+          <a href="#">Create a group</a>
+          <a href="#">Campus societies</a>
+        </div>
+      </div>
+      <!-- bottom bar -->
+      <div class="footer-bottom">
+        <div class="container footer-bottom-content">
+          <p>© 2025 CampusConnect. All rights reserved.</p>
+
+          <div class="footer-legal">
+            <a href="#">Terms</a>
+            <a href="#">Privacy</a>
+            <a href="#">Cookies</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
