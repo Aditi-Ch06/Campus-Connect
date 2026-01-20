@@ -528,3 +528,17 @@ p{
 .footer-legal a:hover {
   color: #ffffff;
 }
+
+/* micro animations */
+
+.fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.8s ease;
+    transition-delay: 0.1s;
+}
+
+.fade-up.show{
+    opacity: 1;
+    transform: translateY(0);
+}
