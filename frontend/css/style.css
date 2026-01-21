@@ -533,6 +533,7 @@ p{
 
 .fade-up {
     opacity: 0;
+    filter: blur(2px);
     transform: translateY(30px);
     transition: all 0.8s ease;
     transition-delay: 0.1s;
@@ -540,5 +541,57 @@ p{
 
 .fade-up.show{
     opacity: 1;
+    filter: blur(0);
     transform: translateY(0);
+}
+
+/* mobile responsiveness */
+
+@media (max-width: 768px){
+    .navbar-content{
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+        padding: 16px 0;
+        gap: 16px;
+    }
+    .nav-links{
+        gap: 16px;
+    }
+    .hero h1{
+        font-size: 2.2rem;
+    }
+    .hero h2{
+        font-size: 1.3rem;
+    }
+    .hero p{
+        font-size: 1rem;
+    }
+    .events-grid{
+        grid-template-columns: 1fr;
+    }
+    .sub-hero{
+        padding: 64px 24px;
+    }
+    .interests-grid{
+        grid-template-columns: 1fr;
+    }
+    .popular-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .steps{
+        grid-template-columns: 1fr;
+    }
+    .footer-content{
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .footer-bottom-content{
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+    .section{
+        padding: 64px 20px;
+    }
 }
